@@ -1,0 +1,8 @@
+PKG_NAME="setuptools_scm"
+PKG_VERSION="10.0.5"
+PKG_LICENSE="MIT"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_HOST="Python3:host setuptools:host vcs_versioning:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

@@ -1,0 +1,8 @@
+PKG_NAME="certifi"
+PKG_VERSION="2026.5.20"
+PKG_LICENSE="MPL-2.0"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_TARGET="Python3:host Python3 setuptools:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

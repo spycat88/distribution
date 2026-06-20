@@ -1,0 +1,8 @@
+PKG_NAME="hatch_vcs"
+PKG_VERSION="0.5.0"
+PKG_LICENSE="MIT"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_HOST="Python3:host setuptools:host hatchling:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

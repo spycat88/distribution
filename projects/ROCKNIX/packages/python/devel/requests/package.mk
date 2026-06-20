@@ -1,0 +1,8 @@
+PKG_NAME="requests"
+PKG_VERSION="2.34.2"
+PKG_LICENSE="Apache-2.0"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_TARGET="Python3:host setuptools:host vcs_versioning:host urllib3 idna certifi"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

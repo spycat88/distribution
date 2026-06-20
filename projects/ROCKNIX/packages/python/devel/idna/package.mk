@@ -1,0 +1,8 @@
+PKG_NAME="idna"
+PKG_VERSION="3.16"
+PKG_LICENSE="BSD-3-Clause"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_TARGET="Python3:host setuptools:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

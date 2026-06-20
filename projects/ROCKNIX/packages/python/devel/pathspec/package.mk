@@ -1,0 +1,8 @@
+PKG_NAME="pathspec"
+PKG_VERSION="1.1.1"
+PKG_LICENSE="MPL-2.0"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_HOST="Python3:host setuptools:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

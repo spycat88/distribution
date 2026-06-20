@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <gameList>
     <game>
+        <path>./RGSX.sh</path>
+        <name>RGSX</name>
+        <desc>Retro Games Sets X - Games Downloader</desc>
+        <developer>RetroGameSets.fr</developer>
+        <publisher>RetroGameSets.fr</publisher>
+        <rating>5.0</rating>
+        <releasedate>2026</releasedate>
+        <genre>Tool</genre>
+        <players>1</players>
+        <image>/usr/local/share/RGSX/RGSX.png</image>
+    </game>
+    <game>
         <path>./commander.sh</path>
         <name>File Manager</name>
         <desc>Enables you to browse the ROCKNIX filesystem and manage files directly on your device. You can also use this tool to copy files from external drives to your ROCKNIX filesystem.</desc>

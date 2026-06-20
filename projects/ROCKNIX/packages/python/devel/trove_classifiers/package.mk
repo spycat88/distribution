@@ -1,0 +1,8 @@
+PKG_NAME="trove_classifiers"
+PKG_VERSION="2026.5.22.10"
+PKG_LICENSE="Apache-2.0"
+PKG_SITE="https://pypi.org/project/trove-classifiers"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_HOST="Python3:host setuptools:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"

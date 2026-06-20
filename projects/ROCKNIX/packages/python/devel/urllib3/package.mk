@@ -1,0 +1,8 @@
+PKG_NAME="urllib3"
+PKG_VERSION="2.7.0"
+PKG_LICENSE="MIT"
+PKG_SITE="https://pypi.org/project/requests"
+PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_TARGET="Python3:host setuptools:host hatchling:host hatch_vcs:host setuptools_scm:host"
+PKG_LONGDESC=""
+PKG_TOOLCHAIN="python"
