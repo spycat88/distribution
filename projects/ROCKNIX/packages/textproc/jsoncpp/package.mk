@@ -3,4 +3,4 @@
 
 . ${ROOT}/packages/textproc/jsoncpp/package.mk
 
-PKG_MESON_OPTS_TARGET="-Dtests=false"
+PKG_MESON_OPTS_TARGET="${PKG_MESON_OPTS_TARGET/--default-library static/--default-library shared}"

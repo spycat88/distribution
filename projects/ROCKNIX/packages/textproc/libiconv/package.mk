@@ -3,14 +3,5 @@
 
 . ${ROOT}/packages/textproc/libiconv/package.mk
 
-PKG_CONFIGURE_OPTS_TARGET="--host=${TARGET_NAME} \
-            --build=${HOST_NAME} \
-            --prefix=/usr \
-            --includedir=/usr/include/iconv \
-            --libdir=/usr/lib/iconv \
-            --sysconfdir=/etc \
-            --enable-shared \
-            --disable-static \
-            --disable-nls \
-            --disable-extra-encodings \
-            --with-gnu-ld"
+PKG_CONFIGURE_OPTS_TARGET="${PKG_CONFIGURE_OPTS_TARGET/--enable-static/--disable-static}"
+PKG_CONFIGURE_OPTS_TARGET="${PKG_CONFIGURE_OPTS_TARGET/--disable-shared/--enable-shared}"
